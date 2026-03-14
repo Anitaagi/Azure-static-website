@@ -1,0 +1,17 @@
+name: Azure Static Website Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Deployment message
+        run: echo "Website deployment triggered"
