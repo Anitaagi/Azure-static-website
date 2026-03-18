@@ -29,8 +29,5 @@ az storage blob upload-batch \
 ## 🌐 Result
 The website is successfully hosted on Azure.
 
-## 📷 Screenshots
-(Add screenshots here)
-
 ## 👩‍💻 Author
 Anita Umasom Agi
